@@ -1,0 +1,22 @@
+2022-11-12 17:44:49,096 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-11-12 17:46:45,198 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-11-12 17:49:08,100 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-11-12 17:50:18,450 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: TDC:TheDesignersClass:0.0.1-SNAPSHOT @ C:\Users\Prashant\Downloads\TDC-ScreenCapture\TDC-Automation-sample-project_bkp\TDC-Automation\pom.xml.
+2022-11-12 17:50:21,498 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /TheDesignersClass/src/main/java
+2022-11-12 17:50:21,498 [Worker-3: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /TheDesignersClass/src/test/java
+2022-11-12 17:50:21,732 [Worker-3: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 8 sec
+2022-11-12 17:50:22,638 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 17:50:22,638 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Prashant\Downloads\TDC-ScreenCapture\TDC-Automation-sample-project_bkp\TDC-Automation\src\main\resources
+2022-11-12 17:50:22,642 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 17:50:22,642 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Prashant\Downloads\TDC-ScreenCapture\TDC-Automation-sample-project_bkp\TDC-Automation\src\test\resources
+2022-11-12 17:51:31,726 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-11-12 17:52:24,256 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-11-12 17:55:19,795 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-11-12 17:55:49,661 [Worker-9: Launching TheDesignersClass_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 17:55:49,662 [Worker-9: Launching TheDesignersClass_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Prashant\Downloads\TDC-ScreenCapture\TDC-Automation-sample-project_bkp\TDC-Automation\src\main\resources
+2022-11-12 17:55:49,666 [Worker-9: Launching TheDesignersClass_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 17:55:49,666 [Worker-9: Launching TheDesignersClass_testng.xml] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Prashant\Downloads\TDC-ScreenCapture\TDC-Automation-sample-project_bkp\TDC-Automation\src\test\resources
+2022-11-12 17:56:15,687 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 17:56:15,687 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Prashant\Downloads\TDC-ScreenCapture\TDC-Automation-sample-project_bkp\TDC-Automation\src\main\resources
+2022-11-12 17:56:15,688 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-11-12 17:56:15,688 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Prashant\Downloads\TDC-ScreenCapture\TDC-Automation-sample-project_bkp\TDC-Automation\src\test\resources

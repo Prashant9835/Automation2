@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.tdc.lms.base.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="courseName" value="WEDDING PHOTOGRAPHY BY JOSEPH RADHIK"/>
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="com.tdc.lms.testcases.MyCartPageTest2">
+        <methods>
+          <include name="proceedPayment"/>
+          <include name="launchMyCart"/>
+          <include name="clickCheckout"/>
+          <include name="initializeDriver"/>
+          <include name="fillBillingDetails"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.tdc.lms.testcases.MyCartPageTest2 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

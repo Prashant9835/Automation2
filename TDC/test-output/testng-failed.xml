@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [Login]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.tdc.lms.base.Listeners"/>
+  </listeners>
+  <test thread-count="3" parallel="tests" name="TDC AUTOMATION TEST1(failed)">
+    <parameter name="browserName" value="edge"/>
+    <classes>
+      <class name="com.tdc.lms.testcases.LoginPageTest">
+        <methods>
+          <include name="launchLoginPage"/>
+          <include name="initializeDriver"/>
+          <include name="invalidEmail"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.tdc.lms.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- TDC AUTOMATION TEST1(failed) -->
+  <test thread-count="3" name="TDC AUTOMATION TEST(failed)">
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="com.tdc.lms.testcases.LoginPageTest">
+        <methods>
+          <include name="launchLoginPage"/>
+          <include name="initializeDriver"/>
+          <include name="invalidEmail"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.tdc.lms.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- TDC AUTOMATION TEST(failed) -->
+  <test thread-count="3" parallel="tests" name="TDC AUTOMATION TEST2(failed)">
+    <parameter name="browserName" value="firefox"/>
+    <classes>
+      <class name="com.tdc.lms.testcases.LoginPageTest">
+        <methods>
+          <include name="launchLoginPage"/>
+          <include name="initializeDriver"/>
+          <include name="invalidEmail"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.tdc.lms.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- TDC AUTOMATION TEST2(failed) -->
+</suite> <!-- Failed suite [Login] -->

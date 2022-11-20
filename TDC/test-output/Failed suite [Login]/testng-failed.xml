@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Login]]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.tdc.lms.base.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="TDC AUTOMATION TEST(failed)(failed)">
+    <classes>
+      <class name="com.tdc.lms.testcases.LoginPageTest">
+        <methods>
+          <include name="launchLoginPage"/>
+          <include name="initializeDriver"/>
+          <include name="invalidEmail"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.tdc.lms.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- TDC AUTOMATION TEST(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Login]] -->

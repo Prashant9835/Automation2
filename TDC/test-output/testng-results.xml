@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="8" total="19" passed="8" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-20T01:03:41Z" name="Login" finished-at="2022-11-20T01:04:20Z" duration-ms="39382">
+    <groups>
+    </groups>
+    <test started-at="2022-11-20T01:03:41Z" name="TDC AUTOMATION TEST1" finished-at="2022-11-20T01:04:11Z" duration-ms="29769">
+      <class name="com.tdc.lms.testcases.LoginPageTest">
+        <test-method is-config="true" signature="initializeDriver(java.lang.String)[pri:0, instance:com.tdc.lms.testcases.LoginPageTest@66ac5762]" started-at="2022-11-20T01:03:41Z" name="initializeDriver" finished-at="2022-11-20T01:03:45Z" duration-ms="4459" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method is-config="true" signature="launchLoginPage()[pri:0, instance:com.tdc.lms.testcases.LoginPageTest@66ac5762]" started-at="2022-11-20T01:03:45Z" name="launchLoginPage" finished-at="2022-11-20T01:03:54Z" duration-ms="8632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchLoginPage -->
+        <test-method signature="invalidEmail()[pri:0, instance:com.tdc.lms.testcases.LoginPageTest@66ac5762]" started-at="2022-11-20T01:03:54Z" name="invalidEmail" description="Invalid login Test scenario with invalid Email" finished-at="2022-11-20T01:03:58Z" duration-ms="4299" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [There is no user record corresponding to this identifier.The user may have been deleted. (auth/user-not-found).] but found [There is no user record corresponding to this identifier. The user may have been deleted. (auth/user-not-found).]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [There is no user record corresponding to this identifier.The user may have been deleted. (auth/user-not-found).] but found [There is no user record corresponding to this identifier. The user may have been deleted. (auth/user-not-found).]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at com.tdc.lms.testcases.LoginPageTest.invalidEmail(LoginPageTest.java:26)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1589)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEmail -->
+        <test-method signature="login()[pri:1, instance:com.tdc.lms.testcases.LoginPageTest@66ac5762]" started-at="2022-11-20T01:03:59Z" name="login" description="Valid Login Test scenario" finished-at="2022-11-20T01:04:04Z" duration-ms="4444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tdc.lms.testcases.LoginPageTest@66ac5762]" started-at="2022-11-20T01:04:07Z" name="tearDown" finished-at="2022-11-20T01:04:11Z" duration-ms="3564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tdc.lms.testcases.LoginPageTest -->
+      <class name="com.tdc.lms.testcases.LogoutPageTest">
+        <test-method is-config="true" signature="launchLogoutPage()[pri:0, instance:com.tdc.lms.testcases.LogoutPageTest@797cf65c]" started-at="2022-11-20T01:04:04Z" name="launchLogoutPage" finished-at="2022-11-20T01:04:04Z" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchLogoutPage -->
+        <test-method signature="logOut()[pri:2, instance:com.tdc.lms.testcases.LogoutPageTest@797cf65c]" started-at="2022-11-20T01:04:04Z" name="logOut" finished-at="2022-11-20T01:04:07Z" duration-ms="3501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+      </class> <!-- com.tdc.lms.testcases.LogoutPageTest -->
+    </test> <!-- TDC AUTOMATION TEST1 -->
+    <test started-at="2022-11-20T01:03:41Z" name="TDC AUTOMATION TEST" finished-at="2022-11-20T01:04:19Z" duration-ms="38623">
+      <class name="com.tdc.lms.testcases.LoginPageTest">
+        <test-method is-config="true" signature="initializeDriver(java.lang.String)[pri:0, instance:com.tdc.lms.testcases.LoginPageTest@79179359]" started-at="2022-11-20T01:03:41Z" name="initializeDriver" finished-at="2022-11-20T01:03:45Z" duration-ms="4445" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method is-config="true" signature="launchLoginPage()[pri:0, instance:com.tdc.lms.testcases.LoginPageTest@79179359]" started-at="2022-11-20T01:03:45Z" name="launchLoginPage" finished-at="2022-11-20T01:03:54Z" duration-ms="8819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchLoginPage -->
+        <test-method signature="invalidEmail()[pri:0, instance:com.tdc.lms.testcases.LoginPageTest@79179359]" started-at="2022-11-20T01:03:54Z" name="invalidEmail" description="Invalid login Test scenario with invalid Email" finished-at="2022-11-20T01:03:58Z" duration-ms="4129" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [There is no user record corresponding to this identifier.The user may have been deleted. (auth/user-not-found).] but found [There is no user record corresponding to this identifier. The user may have been deleted. (auth/user-not-found).]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [There is no user record corresponding to this identifier.The user may have been deleted. (auth/user-not-found).] but found [There is no user record corresponding to this identifier. The user may have been deleted. (auth/user-not-found).]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at com.tdc.lms.testcases.LoginPageTest.invalidEmail(LoginPageTest.java:26)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1589)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEmail -->
+        <test-method signature="login()[pri:1, instance:com.tdc.lms.testcases.LoginPageTest@79179359]" started-at="2022-11-20T01:03:59Z" name="login" description="Valid Login Test scenario" finished-at="2022-11-20T01:04:03Z" duration-ms="4419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tdc.lms.testcases.LoginPageTest@79179359]" started-at="2022-11-20T01:04:16Z" name="tearDown" finished-at="2022-11-20T01:04:19Z" duration-ms="3635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tdc.lms.testcases.LoginPageTest -->
+      <class name="com.tdc.lms.testcases.LogoutPageTest">
+        <test-method is-config="true" signature="launchLogoutPage()[pri:0, instance:com.tdc.lms.testcases.LogoutPageTest@51acdf2e]" started-at="2022-11-20T01:04:12Z" name="launchLogoutPage" finished-at="2022-11-20T01:04:12Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchLogoutPage -->
+        <test-method signature="logOut()[pri:2, instance:com.tdc.lms.testcases.LogoutPageTest@51acdf2e]" started-at="2022-11-20T01:04:12Z" name="logOut" finished-at="2022-11-20T01:04:16Z" duration-ms="3862" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+      </class> <!-- com.tdc.lms.testcases.LogoutPageTest -->
+      <class name="com.tdc.lms.testcases.MyProfilePageTest">
+        <test-method is-config="true" signature="launchMyProfile()[pri:0, instance:com.tdc.lms.testcases.MyProfilePageTest@dbd8e44]" started-at="2022-11-20T01:04:03Z" name="launchMyProfile" finished-at="2022-11-20T01:04:03Z" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchMyProfile -->
+        <test-method signature="goToMyCourses()[pri:1, instance:com.tdc.lms.testcases.MyProfilePageTest@dbd8e44]" started-at="2022-11-20T01:04:03Z" name="goToMyCourses" finished-at="2022-11-20T01:04:08Z" duration-ms="4362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToMyCourses -->
+        <test-method signature="goToBookmarkedArticles()[pri:2, instance:com.tdc.lms.testcases.MyProfilePageTest@dbd8e44]" started-at="2022-11-20T01:04:08Z" name="goToBookmarkedArticles" finished-at="2022-11-20T01:04:12Z" duration-ms="4216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToBookmarkedArticles -->
+      </class> <!-- com.tdc.lms.testcases.MyProfilePageTest -->
+    </test> <!-- TDC AUTOMATION TEST -->
+    <test started-at="2022-11-20T01:03:41Z" name="TDC AUTOMATION TEST2" finished-at="2022-11-20T01:04:20Z" duration-ms="39382">
+      <class name="com.tdc.lms.testcases.LoginPageTest">
+        <test-method is-config="true" signature="initializeDriver(java.lang.String)[pri:0, instance:com.tdc.lms.testcases.LoginPageTest@1941a8ff]" started-at="2022-11-20T01:03:41Z" name="initializeDriver" finished-at="2022-11-20T01:03:54Z" duration-ms="13501" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method is-config="true" signature="launchLoginPage()[pri:0, instance:com.tdc.lms.testcases.LoginPageTest@1941a8ff]" started-at="2022-11-20T01:03:54Z" name="launchLoginPage" finished-at="2022-11-20T01:04:03Z" duration-ms="8274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchLoginPage -->
+        <test-method signature="invalidEmail()[pri:0, instance:com.tdc.lms.testcases.LoginPageTest@1941a8ff]" started-at="2022-11-20T01:04:03Z" name="invalidEmail" description="Invalid login Test scenario with invalid Email" finished-at="2022-11-20T01:04:07Z" duration-ms="4659" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [There is no user record corresponding to this identifier.The user may have been deleted. (auth/user-not-found).] but found [There is no user record corresponding to this identifier. The user may have been deleted. (auth/user-not-found).]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [There is no user record corresponding to this identifier.The user may have been deleted. (auth/user-not-found).] but found [There is no user record corresponding to this identifier. The user may have been deleted. (auth/user-not-found).]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at com.tdc.lms.testcases.LoginPageTest.invalidEmail(LoginPageTest.java:26)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1589)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidEmail -->
+        <test-method signature="login()[pri:1, instance:com.tdc.lms.testcases.LoginPageTest@1941a8ff]" started-at="2022-11-20T01:04:08Z" name="login" description="Valid Login Test scenario" finished-at="2022-11-20T01:04:12Z" duration-ms="4242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.tdc.lms.testcases.LoginPageTest@1941a8ff]" started-at="2022-11-20T01:04:16Z" name="tearDown" finished-at="2022-11-20T01:04:20Z" duration-ms="4230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tdc.lms.testcases.LoginPageTest -->
+      <class name="com.tdc.lms.testcases.LogoutPageTest">
+        <test-method is-config="true" signature="launchLogoutPage()[pri:0, instance:com.tdc.lms.testcases.LogoutPageTest@22d7b4f8]" started-at="2022-11-20T01:04:12Z" name="launchLogoutPage" finished-at="2022-11-20T01:04:12Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchLogoutPage -->
+        <test-method signature="logOut()[pri:2, instance:com.tdc.lms.testcases.LogoutPageTest@22d7b4f8]" started-at="2022-11-20T01:04:12Z" name="logOut" finished-at="2022-11-20T01:04:16Z" duration-ms="4074" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+      </class> <!-- com.tdc.lms.testcases.LogoutPageTest -->
+    </test> <!-- TDC AUTOMATION TEST2 -->
+  </suite> <!-- Login -->
+</testng-results>
